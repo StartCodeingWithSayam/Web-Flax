@@ -154,6 +154,15 @@
     border-bottom: 1px solid rgb(207, 207, 207);
 }
 
+.mainContent button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent button span{
+    margin-left: 12px;
+}
+
 .content img{
     display: block;
     margin-left: auto;
