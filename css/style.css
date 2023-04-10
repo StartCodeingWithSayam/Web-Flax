@@ -10,6 +10,7 @@
     --color-on-primary-2: #555555;
     --poppins:'Poppins', sans-serif;
 }
+/* Sayam */
 .landing{
     background: rgb(91,46,208);
     background: linear-gradient(90deg, rgba(91,46,208,1) 35%, rgba(152,53,225,1) 100%);
@@ -162,7 +163,7 @@
 p{
     font-size: 16px;
 }
-
+/* Nitish */
 .info-container{
     padding-top: 5em;
     padding-bottom: 10em;
@@ -232,15 +233,9 @@ p{
     color: var(--color-on-primary-2);
 }
 
-
-
-
-
-
-
-h2 span{
+/* Aditya */
+.text{
     color: rgba(30, 32, 32, 0.507);
-   
 }
 .sponsor-container{
     background-color: transparent;
@@ -250,14 +245,12 @@ h2 span{
     margin-top: 80px;
 }
 
-
-
-/* .sponsor-container.first{
+.sponsor-container.first{
     width: 18%;
     height: auto;
     padding-left: 80px;
     display: inline;
-} */
+}
 .sponsor-container img{
     margin: 23px;
     margin-top: 50px;
