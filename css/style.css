@@ -243,26 +243,31 @@ p{
 }
 
 /* Aditya */
-.text{
-    color: rgba(30, 32, 32, 0.507);
+  h2 span{
+ color: rgba(30, 32, 32, 0.507);
+   
 }
 .sponsor-container{
     background-color: transparent;
+    
 }
 .sponsor-container h2{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 160px;
 }
 
-.sponsor-container.first{
+
+
+/* .sponsor-container.first{
     width: 18%;
     height: auto;
     padding-left: 80px;
     display: inline;
-}
+} */
 .sponsor-container img{
     margin: 23px;
     margin-top: 50px;
+    
 }
 .sponsor-container h1{
     text-align: center;
@@ -272,8 +277,74 @@ p{
 }
 .reviews {
     display: flex;
+    gap: 26px;
+    margin-top: 45px;
     
 }
+.sponsor-container .left{
+    flex: 20%;
+    text-align: center;
+
+}
+.sponsor-container .center{
+    flex: 20%;
+    text-align: center;
+}
+.sponsor-container .right{
+    flex: 60%;
+    display: flex;
+    align-items: center;
+
+
+}
+.sponsor-container .reviews>div{
+    border: 1px solid rgb(234, 226, 226);
+    padding: 11px 40px ;
+    border-radius: 10px;
+    
+
+}
+.sponsor-container .left img{
+    width: auto;
+    height: 35px;
+    margin: 20px;
+
+}
+.sponsor-container .right img{
+    width: auto;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rebeccapurple;
+    margin: 0%;
+    
+
+}
+.sponsor-container .center img{
+    width: auto;
+    height: 35px;
+    margin: 20px;
+
+}
+.sponsor-container .main-cont{
+    max-width: 1280px;
+    margin: auto;
+}
+.sponsor-container .logo{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    justify-content: space-between;
+}
+.reviews .right-text-gyan{
+    padding-left: 39px;
+    font-size: 20px;
+}
+.star-container .star{
+    color: rgb(196, 177, 65); /* Sets the color of the star */
+    font-size: 26px; /* Sets the size of the star */
+  }
+
+
 
 
 /* Anubhav Pathak */
@@ -284,8 +355,7 @@ p{
     gap: 50px;
     margin: auto;
     max-width: 1280px;
-    margin-left: 30px;
-    margin-right: 30px;
+   
 }
 .detail-container h4{
     margin-top: 20px;
