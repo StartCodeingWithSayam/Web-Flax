@@ -176,7 +176,7 @@ p{
 .info-container{
     padding-top: 5em;
     padding-bottom: 10em;
-    border-bottom: 1px solid rgb(207, 207, 207);
+    /* border-bottom: 1px solid rgb(207, 207, 207); */
 }
 
 .info-container h2{
@@ -326,7 +326,7 @@ p{
 
 }
 .sponsor-container .main-cont{
-    max-width: 1280px;
+    max-width: 100%;
     margin: auto;
 }
 .sponsor-container .logo{
@@ -343,8 +343,37 @@ p{
     color: rgb(196, 177, 65); /* Sets the color of the star */
     font-size: 26px; /* Sets the size of the star */
   }
+.partner p{
+    text-align: center;
+    /* justify-content: center;
+    margin: auto; */
+}
+.partner .tools{
+
+    max-width: 1280px;
+    margin:50px auto;
+
+}
+
+.partner .proof{
+    margin-left: 151px;
+     display: flex;
+ 
+}
 
 
+.partner .small-logo{
+    padding: 12px 12px 12px 12px;   
+    /* margin-left: 36px;
+    margin-top: 12px; */
+margin-bottom: 332px;
+  
+
+}
+.partner .small-logo .f-text{
+  
+   
+}
 
 
 /* Anubhav Pathak */
@@ -355,6 +384,7 @@ p{
     gap: 50px;
     margin: auto;
     max-width: 1280px;
+    margin-top: 69px;
    
 }
 .detail-container h4{
