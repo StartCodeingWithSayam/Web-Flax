@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,400;1,500&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Poppins', sans-serif;
+
+}
+
+body {
     margin: 0;
 }
 
-:root{
+:root {
     --color-on-primary: #3a3a3a;
     --color-on-primary-2: #555555;
-    --poppins:'Poppins', sans-serif;
+    --poppins: 'Poppins', sans-serif;
 }
+
 /* Sayam */
-.landing{
-    background: rgb(91,46,208);
-    background: linear-gradient(90deg, rgba(91,46,208,1) 35%, rgba(152,53,225,1) 100%);
+.landing {
+    background: rgb(91, 46, 208);
+    background: linear-gradient(90deg, rgba(91, 46, 208, 1) 35%, rgba(152, 53, 225, 1) 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,13 +29,13 @@
     color: white;
 }
 
-.main_nav{
+.main_nav {
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
     background-color: white;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +45,7 @@
     margin: auto;
 }
 
-.menu button{
+.menu button {
     border: #3a3a3a 1px;
     margin-left: 2rem;
     font-size: 16px;
@@ -56,17 +62,17 @@
     justify-content: space-between;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
 }
 
-.menu ul li{
+.menu ul li {
     margin: 0 1rem;
 }
 
-.menu ul li a{
+.menu ul li a {
     text-decoration: none;
     color: #fff;
     font-family: var(--poppins);
@@ -75,7 +81,7 @@
     transition: all 0.3s ease;
 }
 
-.menu button{
+.menu button {
     border: #3a3a3a 1px;
     margin-left: 2rem;
     font-size: 16px;
@@ -89,19 +95,20 @@
     transition: all 0.3s ease;
 }
 
-.menu button:hover{
+.menu button:hover {
     background-color: #3a3a3a;
     color: white;
 }
 
-.mainContent{
+.mainContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1rem;
 }
-.mainContent h1{
+
+.mainContent h1 {
     font-size: 48px;
     color: white;
     margin-bottom: 24px;
@@ -109,7 +116,7 @@
     text-align: center;
 }
 
-.mainContent p{
+.mainContent p {
     font-size: 16px;
     text-align: center;
     max-width: 700px;
@@ -117,7 +124,7 @@
     margin-bottom: 24px;
 }
 
-.mainContent button{
+.mainContent button {
     background-color: #ffe100;
     color: #3a3a3a;
     font-size: 16px;
@@ -131,19 +138,19 @@
     transition: all 0.3s ease;
 }
 
-.flex-container button:hover{
+.flex-container button:hover {
     background-color: #ffc300;
     color: #000;
 }
 
-.mainContent button img{
+.mainContent button img {
     width: 20px;
     height: 20px;
     align-items: center;
     top: 23px;
 }
 
-.content{
+.content {
     display: flexbox;
     flex-direction: column;
     justify-content: center;
@@ -154,32 +161,35 @@
     border-bottom: 1px solid rgb(207, 207, 207);
 }
 
-.mainContent button{
+.mainContent button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.mainContent button span{
+
+.mainContent button span {
     margin-left: 12px;
 }
 
-.content img{
+.content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 92.5%;
 }
-p{
+
+p {
     font-size: 16px;
 }
+
 /* Nitish */
-.info-container{
+.info-container {
     padding-top: 5em;
     padding-bottom: 10em;
     /* border-bottom: 1px solid rgb(207, 207, 207); */
 }
 
-.info-container h2{
+.info-container h2 {
     font-size: 28px;
     color: var(--color-on-primary);
     margin-bottom: 24px;
@@ -187,14 +197,15 @@ p{
     text-align: center;
 }
 
-.info-container>p{
+.info-container>p {
     text-align: center;
     max-width: 700px;
     margin: auto;
     color: var(--color-on-primary-2);
 
 }
-.info-container .flex-container{
+
+.info-container .flex-container {
     max-width: 1280px;
     margin: auto;
     display: flex;
@@ -207,51 +218,54 @@ p{
 
 }
 
-.info-container .left{
+.info-container .left {
     flex: 25%;
 }
 
-.info-container .center{
+.info-container .center {
     flex: 50%;
 }
 
-.info-container img{
+.info-container img {
     width: 100%;
     height: auto;
 }
 
-.info-container .right{
+.info-container .right {
     flex: 25%;
 }
 
 
-.info-container .left div:first-child, .info-container .right div:first-child{
+.info-container .left div:first-child,
+.info-container .right div:first-child {
     margin-bottom: 50px;
 }
 
-.info-container>div h3{
+.info-container>div h3 {
     color: var(--color-on-primary);
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 16px;
 }
 
-.info-container>div p{
+.info-container>div p {
     text-align: left;
     line-height: 1.5;
     color: var(--color-on-primary-2);
 }
 
 /* Aditya */
-  h2 span{
- color: rgba(30, 32, 32, 0.507);
-   
+h2 span {
+    color: rgba(30, 32, 32, 0.507);
+
 }
-.sponsor-container{
+
+.sponsor-container {
     background-color: transparent;
-    
+
 }
-.sponsor-container h2{
+
+.sponsor-container h2 {
     text-align: center;
     margin-top: 160px;
 }
@@ -264,132 +278,212 @@ p{
     padding-left: 80px;
     display: inline;
 } */
-.sponsor-container img{
+.sponsor-container img {
     margin: 23px;
     margin-top: 50px;
-    
+
 }
-.sponsor-container h1{
+
+.sponsor-container h1 {
     text-align: center;
     font-size: 33px;
     margin-top: 55px;
 
 }
+
 .reviews {
     display: flex;
     gap: 26px;
     margin-top: 45px;
-    
+
 }
-.sponsor-container .left{
+
+.sponsor-container .left {
     flex: 20%;
     text-align: center;
 
 }
-.sponsor-container .center{
+
+.sponsor-container .center {
     flex: 20%;
     text-align: center;
 }
-.sponsor-container .right{
+
+.sponsor-container .right {
     flex: 60%;
     display: flex;
     align-items: center;
 
 
 }
-.sponsor-container .reviews>div{
+
+.sponsor-container .reviews>div {
     border: 1px solid rgb(234, 226, 226);
-    padding: 11px 40px ;
+    padding: 11px 40px;
     border-radius: 10px;
-    
+
 
 }
-.sponsor-container .left img{
+
+.sponsor-container .left img {
     width: auto;
     height: 35px;
     margin: 20px;
 
 }
-.sponsor-container .right img{
+
+.sponsor-container .right img {
     width: auto;
     height: 80px;
     border-radius: 50%;
     border: 1px solid rebeccapurple;
     margin: 0%;
-    
+
 
 }
-.sponsor-container .center img{
+
+.sponsor-container .center img {
     width: auto;
     height: 35px;
     margin: 20px;
 
 }
-.sponsor-container .main-cont{
+
+.sponsor-container .main-cont {
     max-width: 100%;
     margin: auto;
 }
-.sponsor-container .logo{
+
+.sponsor-container .logo {
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
 }
-.reviews .right-text-gyan{
+
+.reviews .right-text-gyan {
     padding-left: 39px;
     font-size: 20px;
 }
-.star-container .star{
-    color: rgb(196, 177, 65); /* Sets the color of the star */
-    font-size: 26px; /* Sets the size of the star */
-  }
-.partner p{
+
+.star-container .star {
+    color: rgb(196, 177, 65);
+    /* Sets the color of the star */
+    font-size: 26px;
+    /* Sets the size of the star */
+}
+
+.partner p {
     text-align: center;
     /* justify-content: center;
     margin: auto; */
 }
-.partner .tools{
+
+.partner .tools {
 
     max-width: 1280px;
-    margin:50px auto;
+    margin: 50px auto;
 
 }
 
-.partner .proof{
+.partner .proof {
     margin-left: 151px;
-     display: flex;
- 
+    display: flex;
+
 }
 
 
-.partner .small-logo{
-    padding: 12px 12px 12px 12px;   
+.partner .small-logo {
+    padding: 12px 12px 12px 12px;
     /* margin-left: 36px;
     margin-top: 12px; */
-margin-bottom: 332px;
-  
+    margin-bottom: 332px;
+
 
 }
-.partner .small-logo .f-text{
-  
+/* 
+.partner .small-logo .f-text {} */
+
+
+
+/* bluebox ka chalu ho gya */
+
+.fullbox {
+    width: 100%;
+    background-color: #5c2ede;
+    overflow: 20px auto;
+
+}
+
+.box-material {
+    max-width: 1280px;
+    margin: auto;
+    color: #fff;
+    min-height: 500px;
+    
+}
+
+.fullbox h1 {
+    text-align: center;
+
+    margin-top: 100px !important;
+}
+
+.fullbox p {
    
+    color: #fff;
 }
 
+
+.fullbox .top{
+    text-align: center;
+}
+
+
+
+
+
+/* .fullbox h3{
+    
+} */
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.jquery-text {
+    flex-basis: 30%;
+}
+
+
+
+
+
+/* 
+.jquery-text{
+    flex-basis: 30%;
+} */
 
 /* Anubhav Pathak */
 
-.detail-container{
+.detail-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     margin: auto;
     max-width: 1280px;
     margin-top: 69px;
-   
+
 }
-.detail-container h4{
+
+.detail-container h4 {
     margin-top: 20px;
 }
-.detail-container p{
+
+.detail-container p {
     margin-top: 15px;
 }
