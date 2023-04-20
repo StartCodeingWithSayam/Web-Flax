@@ -373,36 +373,41 @@ h2 span {
     /* Sets the size of the star */
 }
 
-.partner p {
-    text-align: center;
-    /* justify-content: center;
-    margin: auto; */
+
+.partner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fcfcfc;
 }
 
-.partner .tools {
-
+.partner .fav-tools {
     max-width: 1280px;
-    margin: 50px auto;
-
+    margin: 60px auto;
+    text-align: center
 }
 
 .partner .proof {
-    margin-left: 151px;
-    display: flex;
-
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
-
-.partner .small-logo {
-    padding: 12px 12px 12px 12px;
-    /* margin-left: 36px;
-    margin-top: 12px; */
-    margin-bottom: 332px;
-
-
+.partner .left img {
+    width: 100%;
+    height: auto;
 }
-/* 
-.partner .small-logo .f-text {} */
+
+.partner .right{
+    text-align: left;
+}
+.partner .right img {
+    padding: 15px;
+    width: 80px;
+    height: auto;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
 
 
 
@@ -411,26 +416,25 @@ h2 span {
 .fullbox {
     width: 100%;
     background-color: #5c2ede;
-    overflow: 20px auto;
-
+    overflow: auto;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .box-material {
     max-width: 1280px;
-    margin: auto;
+    margin: 100px auto;
+    margin-bottom: 150px;
     color: #fff;
-    min-height: 500px;
-    
+
 }
 
 .fullbox h1 {
     text-align: center;
-
     margin-top: 100px !important;
 }
 
 .fullbox p {
-   
     color: #fff;
 }
 
@@ -487,3 +491,8 @@ h2 span {
 .detail-container p {
     margin-top: 15px;
 }
+
+.performance-container{
+
+}
+
