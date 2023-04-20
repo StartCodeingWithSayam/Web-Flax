@@ -412,6 +412,7 @@ h2 span {
     width: 100%;
     background-color: #5c2ede;
     overflow: 20px auto;
+    padding-top: 10px;
 
 }
 
@@ -419,8 +420,12 @@ h2 span {
     max-width: 1280px;
     margin: auto;
     color: #fff;
-    min-height: 500px;
+   
     
+}
+
+svg{
+    fill: #fff;
 }
 
 .fullbox h1 {
