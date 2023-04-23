@@ -374,7 +374,7 @@ h2 span {
 }
 
 
-.partner{
+.partner {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #fcfcfc;
@@ -398,9 +398,10 @@ h2 span {
     height: auto;
 }
 
-.partner .right{
+.partner .right {
     text-align: left;
 }
+
 .partner .right img {
     padding: 15px;
     width: 80px;
@@ -428,7 +429,7 @@ h2 span {
     color: #fff;
 }
 
-svg{
+svg {
     fill: #fff;
 }
 
@@ -442,7 +443,7 @@ svg{
 }
 
 
-.fullbox .top{
+.fullbox .top {
     text-align: center;
 }
 
@@ -498,13 +499,13 @@ svg{
 
 /* aaditya task */
 
-.performance-container{
+.performance-container {
     position: relative;
 
 }
 
 
-.performance-container>div{
+.performance-container>div {
     max-width: 1280px;
     margin: auto;
     display: grid;
@@ -515,58 +516,63 @@ svg{
     top: -63px;
     left: 50%;
     translate: -50%;
-    
+
 
 }
 
-.performance-container .card{
-    width: 275px;
-    height: 190px;
+.performance-container .card {
+    min-width: 240px;
     border-radius: 20px;
-    border: .5px  grey;
+    border: .5px grey;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
     transition: box-shadow .3s;
     background-color: #fcfcfc;
     padding: 10px;
 
 }
 
-.card:hover{
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+.card:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
-.performance-container h1{
-   
+.performance-container h1 {
+
     padding-top: 20px;
 }
 
 
 /* library task :start */
 
-.library-text{
+.library-text {
     display: block;
     justify-content: center;
 }
 
 
-.library-text h1{
-   padding-top: 284px;
-   text-align: center;
-   font-size:xx-large;
-   
-}
-
-.library-text p{
-  
-    width: 780px;
+.library-text h1 {
+    padding-top: 284px;
     text-align: center;
+    font-size: xx-large;
+
 }
 
-.library-text button{
+.library-text p {
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+.library-text button {
+    margin: auto;
+    margin-top: 32px;
+    padding: 0 24px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
     width: 240px;
     height: 60px;
     border-radius: 35px;
     background-color: #ffc300;
-   font-size: large;
+    font-size: large;
+
 }
